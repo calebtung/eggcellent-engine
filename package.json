@@ -1,0 +1,22 @@
+{
+  "name": "eggcellent-engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calebtung/eggcellent-engine.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calebtung/eggcellent-engine/issues"
+  },
+  "homepage": "https://github.com/calebtung/eggcellent-engine#readme",
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
