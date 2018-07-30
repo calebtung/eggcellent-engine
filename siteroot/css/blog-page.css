@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Fira Sans';
+    src: url('../fonts/Fira-Sans.ttf');
+}
+
+@font-face {
+    font-family: 'Fira Sans Extra Condensed';
+    src: url('../fonts/Fira-Sans-Extra-Condensed.ttf');
+}
+
+html {
+    min-height: 100%;
+}
+
+body {
+    background: url('../img/cutesie-pie-blurry-background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #222222;
+}
+
+/*  */
+/* HEADER STYLES BEGIN HERE */
+/*  */
+header.page-header {
+    background: #e6e6e6;
+    font-family: 'Fira Sans Extra Condensed';
+}
+
+h1.page-header {
+    margin: 0;
+    padding: 2rem 0 0 2rem;
+    font-weight: normal;
+}
+
+h2.page-header {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0 0 1rem 2rem;
+    font-weight: normal;
+}
+/*  */
+/* HEADER STYLES END HERE */
+/*  */
+
+/*  */
+/* HEADER-NAVIGATION STYLES BEGIN HERE */
+/*  */
+nav.page-header {
+    border-bottom: 1px #808080 solid;
+    margin: -1rem 0 0 0;
+    text-align: right;
+}
+
+nav.page-header ul {
+    display: inline-block;
+    list-style-type: none;
+    width: 16rem;
+}
+
+nav.page-header li {
+    box-shadow: -1px 0 0 gray;
+    display: block;
+    float: left;
+    text-align: center;
+    width: 50%;
+}
+/*  */
+/* HEADER-NAVIGATION STYLES END HERE */
+/*  */
+
+/*  */
+/* ARTICLE STYLES BEGIN HERE */
+/*  */
+article.page-content {
+    background: rgba(250, 250, 250, 0.8);
+    display: block;
+    font-family: 'Fira Sans';
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: auto;
+    padding: 4rem 5rem 2rem 5rem;
+    width: 48rem;
+}
+
+article.page-content img {
+    border: 2px solid #d5d5d5;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+/*  */
+/* ARTICLE STYLES END HERE */
+/*  */
+
+/*  */
+/* MOBILE-OPTIMIZATION STYLES BEGIN HERE */
+/*  */
+@media (max-width: 60rem) {
+    article.page-content {
+        max-width: 96%;
+        padding: 2%;
+    }
+}
